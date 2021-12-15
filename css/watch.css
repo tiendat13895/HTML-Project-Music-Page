@@ -1,0 +1,138 @@
+p.song-name{
+    font-family: 'Graduate', cursive;
+    font-size: 20pt;
+}
+video{
+    margin-top:2%;
+    width: 97%;
+}
+img.like{
+    width:5%;
+    height:3%;
+}
+.center-listen{
+    background-color: white;
+    height:150%;
+}
+.center-listen>p{
+    font-family: 'Graduate', cursive;
+}
+.center-listen .button{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    border: none;
+    background-color: lightcyan;
+    font-size: 10pt;
+    padding: 0.2% 0.2%;
+    float:left;
+    width: 14%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.center-listen .listen{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 10pt;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    width: 14%;
+}
+
+img.listen{
+    width:5%;
+    height:3%;
+}
+
+.button img{
+    width:30%;
+    height:2%;
+}
+
+.lyric{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    background-color: #EEEEEE;
+    padding: 1% 2%;
+}
+.watch-art{
+    width: 40%;
+    height: 15%;
+    float: left;
+}
+.art-name{
+    float: left;
+    font-family: 'Graduate', cursive;
+    font-size: 14pt;
+}
+
+/* RIGHT COLUMN */
+#container #chart{
+    float: right;
+}
+.title{
+    font-family: 'Graduate', cursive;
+    color: purple;
+    font-weight: bold;
+    font-size: 15pt;
+    width: 95%;
+    height: 4.5%;
+}
+.chart-number-mv{
+    width:40%;
+    height:10%;
+    float: left;
+    margin-right: 2%;
+}
+
+/* #container .chart-song{
+    height: 100%;
+} */
+#container #chart .chart-song-detail{
+    float: left;
+    border-bottom: solid silver 1px;
+    padding: 2% 0;
+}
+
+#container #chart p.song-title{
+    height: 2%;
+    margin: 2%;
+}
+s
+#content a:hover{
+    color: #FF00FF;
+}
+.button:hover{
+    background-color: #7FFFD4;
+}
+
+
+@media (min-width: 320px) and (max-width: 1020px) {
+    #container .chart-mv{
+        height: 105%;
+    }
+    .center-listen .button{
+        padding: 0.2% 0.1%;
+        width: 21%;
+        font-size: 8pt;
+    }
+    .center-listen .listen{
+        font-size: 10pt;
+        float: none;
+        width: 25%;
+    }
+    .center-listen{
+        height:150%;
+    }
+    .img-art{
+        width: 100%;
+    }
+}
+
+ @media (min-width: 1023px) and (max-width: 1365px) {
+        .center-listen .button{
+            width: 16%;
+            font-size: 8pt;
+        }
+ }

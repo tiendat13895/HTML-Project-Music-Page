@@ -1,0 +1,63 @@
+.button-select{
+    border-bottom: solid silver 0.5pt;
+    height: 4%;
+}
+
+.order p{
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    margin: 2% 2%;
+    color:gray;
+}
+
+.order p.by:hover{
+    color: sandybrown;
+    cursor: pointer;
+}
+
+.post{
+    background-color: white;
+    height: 250%;
+}
+
+#container .side{
+    float: left;
+    text-align: left;
+    margin-left: 0.3%;
+}
+.icon-play {
+    margin: -10% 6%;
+    width: 5%;
+    height: 7%;
+}
+
+@media (min-width: 320px) and (max-width: 1020px) {
+    .post{
+        height: 400%;
+    }
+    .button-select{
+        height: 5%;
+    }
+    #container .side{
+        margin: 0 5%;
+    }
+    .post .side{
+        width: 40%;
+        height: 10%
+    }
+    .post img{
+        width: 100%;
+    }
+    .icon-play {
+        margin: -25% 10%;
+        width: 15%;
+    }
+}
+@media (min-width: 1023px) and (max-width: 1365px) {
+    .post{
+        height: 300%;
+    }
+    .icon-play {
+        margin: -15% 8.5%;
+    }
+}

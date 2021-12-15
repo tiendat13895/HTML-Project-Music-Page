@@ -1,0 +1,680 @@
+{
+    "list_song": [
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/0/f/0fd3396bba682ea4657f6377ccfd913d_1501779500.jpg",
+            "song_name": "Havana",
+            "song_artist": "Camila Cabello, Young Thug",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/4/4/44f914886aa4481469c11d072ac779e0_1512094199.jpg",
+            "song_name": "Perfect Duet",
+            "song_artist": "Ed Sheeran, Beyonce",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/b/4/b431a48c44c95082dc386a76ac4ec8c5_1498014384.jpg",
+            "song_name": "Rockstar",
+            "song_artist": "Post Malone, 21 Savage",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/cover/2/6/8/1/26810ee946c8e75e840a01d68e59a186.jpg",
+            "song_name": "Finesse (Remix)",
+            "song_artist": "Bruno Mars, Cardi B",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/a/2/a2b279a5f88a063b24a13e525e6290a2_1496319258.jpg",
+            "song_name": "Bad At Love",
+            "song_artist": "Halsey",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/c/f/cf1d5bbd7d15ba9abf1301896f0bdbc6_1504806139.jpg",
+            "song_name": "Thunder",
+            "song_artist": "Imagine Dragons",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/6/1/61ba9bc486283bf6b2281acaa35b7040_1504803509.jpg",
+            "song_name": "No Limit",
+            "song_artist": "G_Eazy, A$AP Rocky, Cardi B",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/1/b/1b04f7368a91487d9186678a58c25147_1496334895.jpg",
+            "song_name": "New Rules",
+            "song_artist": "Dua Lipa",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/avatars/1/7/17bab9349ef87d3044080640b0a5fa46_1488901235.jpg",
+            "song_name": "Too Good At Goodbyes ",
+            "song_artist": "Sam Smith",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/8/1/81494e3a7abbc52297873d6437211c44_1509329515.jpg",
+            "song_name": "MotorSport",
+            "song_artist": "Migos, Nicki Minaj, Cardi B",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/3/5/35f8af801e209a7c69d244eb30a1b6d9_1501910074.jpg",
+            "song_name": "Gucci Gang",
+            "song_artist": "Lil Pump",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/f/3/f3ccdd27d2000e3f9255a7e3e2c48800_1517578440.jpg",
+            "song_name": "LOVE",
+            "song_artist": "Kendrick Lamar, Zacari",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart13.jpg",
+            "song_name": "Gummo",
+            "song_artist": "6ix9ine",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart14.jpg",
+            "song_name": "Let You Down",
+            "song_artist": "NF",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart15.jpg",
+            "song_name": "Him & I",
+            "song_artist": "G_Eazy, Halsey",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart16.jpg",
+            "song_name": "Bartier Cardi",
+            "song_artist": "Cardi B, 21 Savage",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart17.jpg",
+            "song_name": "Meant To Be",
+            "song_artist": "Bebe Rexha, Florida Georgia Line",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart18.jpg",
+            "song_name": "End Game",
+            "song_artist": "Taylor Swift, Ed Sheeran, Future",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart19.jpg",
+            "song_name": "Bodak Yellow",
+            "song_artist": "Cardi B",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart20.jpg",
+            "song_name": "I Fall Apart",
+            "song_artist": "Post Malone",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/d/3/d3c1b0d2ff73a95a0a48bb1c43a35ff5_1502468357.jpg",
+            "song_name": "Shape Of You",
+            "song_artist": "Ed Sheeran",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/3/5/352314dfef014f70a7c18490182c6c86_1507254744.jpg",
+            "song_name": "How Long",
+            "song_artist": "Charlie Puth",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart23.jpg",
+            "song_name": "Feel It Still",
+            "song_artist": "Portugal. The Man",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart24.jpg",
+            "song_name": "I Get The Bag",
+            "song_artist": "Gucci Mane, Migos",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart25.jpg",
+            "song_name": "Wolves",
+            "song_artist": "Selena Gomez, Marshmello",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart26.jpg",
+            "song_name": "Believer",
+            "song_artist": "Imagine Dragons",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart27.jpg",
+            "song_name": "Plain Jane",
+            "song_artist": "A$AP Ferg",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart28.jpg",
+            "song_name": "Sorry Not Sorry",
+            "song_artist": "Demi Lovato",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart29.jpg",
+            "song_name": "Filthy",
+            "song_artist": "Justin Timberlake",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart30.jpg",
+            "song_name": "Never Be The Same",
+            "song_artist": "Camila Cabello",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart31.jpg",
+            "song_name": "What Lovers Do",
+            "song_artist": "Maroon 5, SZA",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart32.jpg",
+            "song_name": "Young Dumb & Broke",
+            "song_artist": "Khalid",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart33.jpg",
+            "song_name": "Sky Walker",
+            "song_artist": "Miguel, Travis Scott",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart34.jpg",
+            "song_name": "River",
+            "song_artist": "Eminem, Ed Sheeran",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart35.jpg",
+            "song_name": "Marry Me",
+            "song_artist": "Thomas Rhett",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart36.jpg",
+            "song_name": "Roll In Peace",
+            "song_artist": "Kodak Black, Xxxtentacion",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart37.jpg",
+            "song_name": "Bank Account",
+            "song_artist": "21 Savage",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart38.jpg",
+            "song_name": "Mi Gente",
+            "song_artist": "J Balvin, Willy William, Beyoncé",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart39.jpg",
+            "song_name": "Too Good At Goodbyes ",
+            "song_artist": "Sam Smith",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/chart40.jpg",
+            "song_name": "Lemon",
+            "song_artist": "N.e.r.d., Rihanna",
+            "song_url": "../lib/36.mp3"
+        },
+        {
+            "img_url": "../picture/top100/top41.jpg",
+            "song_name": "My Love",
+            "song_artist": "Westlife _ Ultimate Love CD1",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/top42.jpg",
+            "song_name": "Attention",
+            "song_artist": "J.Fla",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/top43.jpg",
+            "song_name": "I Do",
+            "song_artist": "911 & Illuminate... (The Hits And More)",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/top44.jpg",
+            "song_name": "The River",
+            "song_artist": "Axel Johansson _ The River (Single)",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/top45.jpg",
+            "song_name": "Despacito (Remix)",
+            "song_artist": "Luis Fonsi, Daddy Yankee, Justin Bieber",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/top46.jpg",
+            "song_name": "We Dont Talk Anymore",
+            "song_artist": "Charlie Puth, Selena Gomez",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_240/covers/b/f/bf7f5af4ec2495551e1b35a5b39c5ac5_1499220415.jpg",
+            "song_name": "Despacito",
+            "song_artist": "Luis Fonsi, Daddy Yankee _ Despacito (Single)",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/top48.jpg",
+            "song_name": "Why Not Me",
+            "song_artist": "Enrique Iglesias _ Euphoria",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/top49.jpg",
+            "song_name": "Until You",
+            "song_artist": "Shayne Ward _ Breathless",
+            "song_url": "../lib/DarkHorse.mp3"
+        },
+        {
+            "img_url": "../picture/top100/top50.jpg",
+            "song_name": "Just Give Me A Reason",
+            "song_artist": "Pink, Nate Ruess",
+            "song_url": "../lib/DarkHorse.mp3"
+        }
+    ],
+    "list_mv": [
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/7/1/7166e287e27f3868e7d7b4d27ca76f32_1493083394.jpg",
+            "song_name": "Attention",
+            "song_artist": "Charlie Puth",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/f/2/f24edbe8b40f5afa026a37eff7a0f0bc_1508986016.jpg",
+            "song_name": "Havana",
+            "song_artist": "Camila Cabello, Young Thug",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/8/d/8dc074f23d3cc42b60315d94e056b7b6_1470191683.jpg",
+            "song_name": "We Dont Talk Anymore",
+            "song_artist": "Charlie Puth, Selena Gomez",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/9/1/914ebac3fa1ab4560da81eb0bca70203_1484362799.jpg",
+            "song_name": "Despacito",
+            "song_artist": "Luis Fonsi, Daddy Yankee",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/7/b/7bf98628121a9a27a01eb2b46adcbc90_1451530738.jpg",
+            "song_name": "Happy New Year",
+            "song_artist": "ABBA",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/1/6/167dca29e2554b89bba5cb0f548dab58_1486047082.jpg",
+            "song_name": "Shape Of You",
+            "song_artist": "Ed Sheeran",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/6/d/6dbdc88f84e241a12fe30e59f214792a_1510980882.jpg",
+            "song_name": "Echame La Culpa",
+            "song_artist": "Luis Fonsi, Demi Lovato",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/f/8/f8dbb2fd7825a766fdee86b45a53cecf_1496566000.jpg",
+            "song_name": "Despacitoo",
+            "song_artist": "J.Fla",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/3/9/394659692a460258b45a99f1424ea357_1511588983.jpg",
+            "song_name": "MIC Drop (Steve Aoki Remix)",
+            "song_artist": "BTS, Desiigner",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/1/f/1f3677c71c77c1e16ad25c299af5e1de_1477148559.jpg",
+            "song_name": "Rockabye",
+            "song_artist": "Clean Bandit, Sean Paul",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/5/a/5ac28db0054baa551ba8c8734e6ba55c_1509166055.jpg",
+            "song_name": "All Falls Down",
+            "song_artist": "Alan Walker, Noah Cyrus",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/8/5/85df11df0d8ece0ce093a8d2200f5016_1516931345.jpg",
+            "song_name": "Say Something",
+            "song_artist": "Justin Timberlake",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/5/4/54061a02e2c6fe02f0a0aef279d82fa1_1508466730.jpg",
+            "song_name": "How Long",
+            "song_artist": "Charlie Puth",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/1/6/16b17cc76539abb6c505625ae68f4831_1454405421.jpg",
+            "song_name": "Faded",
+            "song_artist": "Alan Walker",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/f/f/ff047b3b8f603cc3a37575197d09d92d_1392949908.jpg",
+            "song_name": "Dark Horse",
+            "song_artist": "Katy Perry, Juicy J",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/c/3/c3b81844d477d3ffe2b5c4b0586bd27e_1421916093.jpg",
+            "song_name": "Love Me Like You Do",
+            "song_artist": "Ellie Goulding",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/8/6/8697f1d7d7bdd2cb4ef46391b42ad74b_1512886286.jpg",
+            "song_name": "Corazón",
+            "song_artist": "Maluma, Nego Do Borel",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/d/9/d9a5898a61735d151bd53b8e408944e1_1454302027.jpg",
+            "song_name": "Hold You (Radio Edit)",
+            "song_artist": "Basto",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/9/0/90de745722098d5d31558a2f3817f270_1514627065.jpg",
+            "song_name": "All Falls Down (Live)",
+            "song_artist": "Alan Walker, Noah Cyrus",
+            "song_url": "../lib/DarkHorse.mp4"
+        },
+        {
+            "img_url": "https://zmp3-photo.zadn.vn/thumb/240_135/thumb_video/6/e/6ed9eca294bc086fd85844ea04e20ea5_1421284492.jpg",
+            "song_name": "Sugar",
+            "song_artist": "Maroon 5",
+            "song_url": "../lib/DarkHorse.mp4"
+        }
+    ],
+    "list_album": [
+        {
+            "img_url": "../picture/album/album1.jpg",
+            "song_name": "Save Me (Single)",
+            "song_artist": "DEAMN"
+        },
+        {
+            "img_url": "../picture/album/album2.jpg",
+            "song_name": "The Spectre (Single)",
+            "song_artist": "Alan Walker"
+        },
+        {
+            "img_url": "../picture/album/album3.jpg",
+            "song_name": "The Greatest Showman OST",
+            "song_artist": "Various Artists"
+        },
+        {
+            "img_url": "../picture/album/album4.jpg",
+            "song_name": "Reputation",
+            "song_artist": "Taylor Swift"
+        },
+        {
+            "img_url": "../picture/album/album5.jpg",
+            "song_name": "Fly Away",
+            "song_artist": "TheFatRat"
+        },
+        {
+            "img_url": "../picture/album/album6.jpg",
+            "song_name": "Despacito (Single)",
+            "song_artist": "Luis Fonsi, Daddy Yankee"
+        },
+        {
+            "img_url": "../picture/album/album7.jpg",
+            "song_name": "Sign (Single)",
+            "song_artist": "DEAMN"
+        },
+        {
+            "img_url": "../picture/album/album8.jpg",
+            "song_name": "Camila",
+            "song_artist": "Camila Cabello"
+        },
+        {
+            "img_url": "../picture/album/album9.jpg",
+            "song_name": "All Falls Down (Single)",
+            "song_artist": "Alan Walker, Noah Cyrus, Digital F..."
+        },
+        {
+            "img_url": "../picture/album/album10.jpg",
+            "song_name": "Havana (Single)",
+            "song_artist": "Camila Cabello"
+        },
+        {
+            "img_url": "../picture/album/album11.jpg",
+            "song_name": "What Makes You Beautiful",
+            "song_artist": "One Direction"
+        },
+        {
+            "img_url": "../picture/album/album12.jpg",
+            "song_name": "Shape Of You (Single)",
+            "song_artist": "Ed Sheeran"
+        },
+        {
+            "img_url": "../picture/album/album13.jpg",
+            "song_name": "Summer Love (Single)",
+            "song_artist": "DEAMN"
+        },
+        {
+            "img_url": "../picture/album/album14.jpg",
+            "song_name": "÷ (Divide)",
+            "song_artist": "Ed Sheeran"
+        },
+        {
+            "img_url": "../picture/album/album15.jpg",
+            "song_name": "Man Of The Woods",
+            "song_artist": "Justin Timberlake"
+        },
+        {
+            "img_url": "../picture/album/album16.jpg",
+            "song_name": "So Far Away (Single)",
+            "song_artist": "Martin Garrix, David Guetta"
+        },
+        {
+            "img_url": "../picture/album/album17.jpg",
+            "song_name": "The River (Single)",
+            "song_artist": "Axel Johansson"
+        },
+        {
+            "img_url": "../picture/album/album18.jpg",
+            "song_name": "Attention (Single)",
+            "song_artist": "Charlie Puth"
+        },
+        {
+            "img_url": "../picture/album/album19.jpg",
+            "song_name": "Unity (Single)",
+            "song_artist": "Thefatrat"
+        },
+        {
+            "img_url": "../picture/album/album20.jpg",
+            "song_name": "Despacito (Remix) (Single)",
+            "song_artist": "Luis Fonsi, Daddy Yankee, Justin..."
+        }
+    ],
+    "list_artist": [
+        {
+            "img_url": "../picture/artist/artist1.jpg",
+            "song_name": "Demi Lovato",
+            "song_artist": "7,182 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist2.jpg",
+            "song_name": "Rihanna",
+            "song_artist": "14,922 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist3.jpg",
+            "song_name": "Alan Walker",
+            "song_artist": "76,615 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist4.jpg",
+            "song_name": "Ed Sheeran",
+            "song_artist": "10,506 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist5.jpg",
+            "song_name": "Chalie Puth",
+            "song_artist": "34,436 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist6.jpg",
+            "song_name": "Imagine Dragons",
+            "song_artist": "4,167 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist7.jpg",
+            "song_name": "Deamn",
+            "song_artist": "7,654 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist8.jpg",
+            "song_name": "Katy Perry",
+            "song_artist": "15,525 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist9.jpg",
+            "song_name": "Taylor Swift",
+            "song_artist": "50,506 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist10.jpg",
+            "song_name": "Martin Garrix",
+            "song_artist": "15,206 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist11.jpg",
+            "song_name": "The Chainsmokers",
+            "song_artist": "15,809 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist12.jpg",
+            "song_name": "Pink",
+            "song_artist": "2,963 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist13.jpg",
+            "song_name": "Maroon 5",
+            "song_artist": "39,752 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist14.jpg",
+            "song_name": "Daddy Yankee",
+            "song_artist": "854 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist15.jpg",
+            "song_name": "Justin Bieber",
+            "song_artist": "49,536 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist16.jpg",
+            "song_name": "David Guetta",
+            "song_artist": "4,635 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist17.jpg",
+            "song_name": "Luis Fonsi",
+            "song_artist": "2,845 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist18.jpg",
+            "song_name": "TheFatRat",
+            "song_artist": "15,126 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist19.jpg",
+            "song_name": "911",
+            "song_artist": "1,852 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist20.jpg",
+            "song_name": "Bruno Mars",
+            "song_artist": "11,863 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist21.jpg",
+            "song_name": "Lady GaGa",
+            "song_artist": "12,635 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist22.jpg",
+            "song_name": "Digital Farm Animals",
+            "song_artist": "93 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist23.jpg",
+            "song_name": "Jessie J",
+            "song_artist": "2,357 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist24.jpg",
+            "song_name": "Shayne Ward",
+            "song_artist": "11,619 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist25.jpg",
+            "song_name": "Beyonce",
+            "song_artist": "4,963 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist26.jpg",
+            "song_name": "Halsey",
+            "song_artist": "1,458 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist27.jpg",
+            "song_name": "Clean Bandit",
+            "song_artist": "2,463 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist28.jpg",
+            "song_name": "Zedd",
+            "song_artist": "4,248 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist29.jpg",
+            "song_name": "Sia",
+            "song_artist": "5,068 Likes"
+        },
+        {
+            "img_url": "../picture/artist/artist30.jpg",
+            "song_name": "ZAYN",
+            "song_artist": "2,358 Likes"
+        }
+    ]
+}

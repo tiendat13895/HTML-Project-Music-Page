@@ -1,0 +1,64 @@
+.post{
+    background-color: white;
+    height: 250%;
+}
+
+#container .side{
+    float: left;
+    text-align: left;
+    margin: 0.1%;
+}
+.icon-play {
+    margin: -9% 5%;
+    width: 5%;
+    height: 7%;
+}
+
+
+@media (min-width: 320px) and (max-width: 1020px) {
+    .post{
+        height: 550%;
+    }
+    .button-select{
+        height: 5%;
+    }
+    #container .side{
+        margin: 0 5%;
+    }
+    .post .side{
+        width: 40%;
+        height: 6.6%
+    }
+    .post img{
+        width: 100%;
+    }
+    .icon-play {
+        margin: -25% 10%;
+        width: 15%;
+    }
+}
+@media (min-width: 1023px) and (max-width: 1365px) {
+    .post{
+        height: 280%;
+        margin-top: 0% !important;
+    }
+    .post img{
+        width: 100%;
+    }
+    #container .side{
+        margin: 0 2%;
+    }
+    .post .side{
+        width: 21%;
+        height: 12.5%;
+    }
+    #container .side.middle1{
+        float: right;
+    }
+    #container .side.middle2{
+        float: right;
+    }
+    .icon-play {
+        margin: -10% 5%;
+    }
+ }

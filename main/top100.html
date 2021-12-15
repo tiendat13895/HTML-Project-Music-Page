@@ -1,0 +1,884 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Music</title>
+    <link rel="stylesheet" href="../css/ProjectStyle.css">
+    <link rel="stylesheet" href="../css/top100.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/jQuery.js"></script>
+</head>
+
+
+<body>
+    <header class="col-12">
+        <div class="header-container col-2">
+            <a href="../main/home.html">
+                <img class="col-6 ml-3 col-sm-12 mt-sm-2" src="../picture/music.jpg" />
+            </a>
+        </div>
+        <div id="searchfield">
+            <div class="searchicon offset-5 col-3 mt-2 col-sm-4 offset-sm-1a my-sm-2">
+                <img class="search-bt mt-2 ml-2 col-sm-1a mt-sm-1" src="../picture/search.png" alt="search">
+                <input class="search-text col-10 col-sm-8" type="text" name="searchtext" maxlength="100" placeholder="Search...">
+            </div>
+            <div id="signin-up" class="pt-sm-2">
+                <button onclick="signin()">Sign Up</button>
+                <button onclick="signin()">Sign In</button>
+            </div>
+        </div>
+    </header>
+    <div id="Sign" class="col-3 offset-5 col-sm-10 offset-sm-1">
+        <div class="ml-4">
+            <h1 class="ml-5a">SIGN IN</h1>
+            User name:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="u_name" class="mb-1" type="text" placeholder="User name">
+            <br> Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="pass" type="text" placeholder="Password">
+            <br>
+            <button class="mt-4 ml-5" onclick="hideSignin()">Login</button>
+            <button class="ml-5" onclick="hideSignin()">Cancel</button>
+        </div>
+    </div>
+    <section id="container" class="pt-6">
+        <div id="menu" class='col-2 col-sm-7 mt-sm-4'>
+            <div id="menu-music">
+                <div class="menu-home">
+                    <a href="../main/home.html">
+                        <img src="../picture/home.png" alt="HOME"> HOME</a>
+                </div>
+                <div class="menu-chart">
+                    <a href="../main/chart.html">
+                        <img src="../picture/chart.png" alt="CHART"> CHART</a>
+                </div>
+                <div class="menu-top100">
+                    <a href="../main/top100.html" style="background-color: #E0FFFF;border-left: 10px solid lightgreen;color:lightgreen;">
+                        <img src="../picture/top100.png" alt="TOP 100"> TOP 100</a>
+                </div>
+                <div class="menu-topic">
+                    <a href="../main/topic.html">
+                        <img src="../picture/topic.png" alt="TOPIC"> TOPIC</a>
+                </div>
+                <div class="menu-MV">
+                    <a href="../main/MV.html">
+                        <img src="../picture/MV.png" alt="MV"> MV</a>
+                </div>
+                <div class="menu-album">
+                    <a href="../main/album.html">
+                        <img src="../picture/album.png" alt="ALBUM"> ALBUM</a>
+                </div>
+                <div class="menu-artist">
+                    <a href="../main/artist.html">
+                        <img src="../picture/artist.png" alt="ARTIST"> ARTIST</a>
+                </div>
+            </div>
+            <div class="more">
+                <div class="col1 ml-2">
+                    <a href="#">
+                        About us
+                    </a>
+                    <a href="#">
+                        Contact
+                    </a>
+                    <a href="#">
+                        Privacy
+                    </a>
+                </div>
+                <div class="col2">
+                    <a href="#">
+                        Terms
+                    </a>
+                    <a href="#">
+                        Help Center
+                    </a>
+                    <a href="#">
+                        Advertisers
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="../picture/facebook.png" alt="FaceBook">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="../picture/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://mail.google.com" target="_blank">
+                    <img src="../picture/gmail.png" alt="Gmail">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="../picture/youtube.png" alt="Youtube">
+                </a>
+            </div>
+        </div>
+        <button id="menubutton" class="offset-2a col-6 col-sm-11 offset-sm-2a mt-sm-4" onclick="opacityContent()">
+            <img src="../picture/menubt.png" alt="Not Found">
+        </button>
+        <div id="content" class="offset-2a col-6 col-sm-11 offset-sm-2a mt-sm-4">
+            <div class="chart-title">
+                <p class="title" style="width: 140px;">&nbsp;TOP 100</p>
+            </div>
+            <div class="button-select">
+                <a href="##" style=" border-bottom: 2px solid sandybrown; color: sandybrown;">Pop</a>
+                <a href="##">Rock</a>
+                <a href="##">Rap/Hip Hop</a>
+                <a href="##">Country</a>
+                <a href="##">Electronic/Dance</a>
+                <a href="##">R&B/Soul</a>
+                <div class="dropdown">
+                    <a href="#" style="font-weight:bold;">...</a>
+                    <div class="dropdown-content">
+                        <a href="#">
+                            <p>Folk</p>
+                        </a>
+                        <a href="#">
+                            <p>House/Techno/Trance</p>
+                        </a>
+                        <a href="#">
+                            <p>New Age/World Music</p>
+                        </a>
+                        <a href="#">
+                            <p>Audiophile</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="post col-12 col-sm-11">
+                <div class="chart-details col-12 mt-4">
+                    <!--  <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3" style="color:red;">01</p>
+                            <img src="../picture/top100/chart1.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Havana</p>
+                            <p class="song-artist">Camila Cabello, Young Thug</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3" style="color:#1E90FF;">02</p>
+                            <img src="../picture/top100/chart2.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Perfect Duet</p>
+                            <p class="song-artist">Ed Sheeran, Beyoncé</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3" style="color:#00FA9A;">03</p>
+                            <img src="../picture/top100/chart3.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Rockstar</p>
+                            <p class="song-artist">Post Malone, 21 Savage</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">04</p>
+                            <img src="../picture/top100/chart4.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Finesse (Remix)</p>
+                            <p class="song-artist">Bruno Mars, Cardi B</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">05</p>
+                            <img src="../picture/top100/chart5.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Bad At Love</p>
+                            <p class="song-artist">Halsey</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">06</p>
+                            <img src="../picture/top100/chart6.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Thunder</p>
+                            <p class="song-artist">Imagine Dragons</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">07</p>
+                            <img src="../picture/top100/chart7.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">No Limit</p>
+                            <p class="song-artist">G-Eazy, A$AP Rocky, Cardi B</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">08</p>
+                            <img src="../picture/top100/chart8.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">New Rules</p>
+                            <p class="song-artist">Dua Lipa</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">09</p>
+                            <img src="../picture/top100/chart9.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Too Good At Goodbyes </p>
+                            <p class="song-artist">Sam Smith</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">10</p>
+                            <img src="../picture/top100/chart10.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">MotorSport</p>
+                            <p class="song-artist">Migos, Nicki Minaj, Cardi B</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">11</p>
+                            <img src="../picture/top100/chart11.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Gucci Gang</p>
+                            <p class="song-artist">Lil Pump</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">12</p>
+                            <img src="../picture/top100/chart12.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">LOVE</p>
+                            <p class="song-artist">Kendrick Lamar, Zacari</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">13</p>
+                            <img src="../picture/top100/chart13.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Gummo</p>
+                            <p class="song-artist">6ix9ine</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">14</p>
+                            <img src="../picture/top100/chart14.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Let You Down</p>
+                            <p class="song-artist">NF</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">15</p>
+                            <img src="../picture/top100/chart15.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Him & I</p>
+                            <p class="song-artist">G-Eazy, Halsey</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">16</p>
+                            <img src="../picture/top100/chart16.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Bartier Cardi</p>
+                            <p class="song-artist">Cardi B, 21 Savage</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">17</p>
+                            <img src="../picture/top100/chart17.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Meant To Be</p>
+                            <p class="song-artist">Bebe Rexha, Florida Georgia Line</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">18</p>
+                            <img src="../picture/top100/chart18.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">End Game</p>
+                            <p class="song-artist">Taylor Swift, Ed Sheeran, Future</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">19</p>
+                            <img src="../picture/top100/chart19.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Bodak Yellow</p>
+                            <p class="song-artist">Cardi B</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">20</p>
+                            <img src="../picture/top100/chart20.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">I Fall Apart</p>
+                            <p class="song-artist">Post Malone</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">21</p>
+                            <img src="../picture/top100/chart21.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Shape Of You</p>
+                            <p class="song-artist">Ed Sheeran</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">22</p>
+                            <img src="../picture/top100/chart22.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">How Long</p>
+                            <p class="song-artist">Charlie Puth</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">23</p>
+                            <img src="../picture/top100/chart23.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Feel It Still</p>
+                            <p class="song-artist">Portugal. The Man</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">24</p>
+                            <img src="../picture/top100/chart24.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">I Get The Bag</p>
+                            <p class="song-artist">Gucci Mane, Migos</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">25</p>
+                            <img src="../picture/top100/chart25.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Wolves</p>
+                            <p class="song-artist">Selena Gomez, Marshmello</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">26</p>
+                            <img src="../picture/top100/chart26.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Believer</p>
+                            <p class="song-artist">Imagine Dragons</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">27</p>
+                            <img src="../picture/top100/chart27.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Plain Jane</p>
+                            <p class="song-artist">A$AP Ferg</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">28</p>
+                            <img src="../picture/top100/chart28.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Sorry Not Sorry</p>
+                            <p class="song-artist">Demi Lovato</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">29</p>
+                            <img src="../picture/top100/chart29.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Filthy</p>
+                            <p class="song-artist">Justin Timberlake</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">30</p>
+                            <img src="../picture/top100/chart30.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Never Be The Same</p>
+                            <p class="song-artist">Camila Cabello</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">31</p>
+                            <img src="../picture/top100/chart31.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">What Lovers Do</p>
+                            <p class="song-artist">Maroon 5, SZA</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">32</p>
+                            <img src="../picture/top100/chart32.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Young Dumb & Broke</p>
+                            <p class="song-artist">Khalid</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">33</p>
+                            <img src="../picture/top100/chart33.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Sky Walker</p>
+                            <p class="song-artist">Miguel, Travis Scott</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">34</p>
+                            <img src="../picture/top100/chart34.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">River</p>
+                            <p class="song-artist">Eminem, Ed Sheeran</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">35</p>
+                            <img src="../picture/top100/chart35.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Marry Me</p>
+                            <p class="song-artist">Thomas Rhett</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">36</p>
+                            <img src="../picture/top100/chart36.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Roll In Peace</p>
+                            <p class="song-artist">Kodak Black, Xxxtentacion</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">37</p>
+                            <img src="../picture/top100/chart37.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Bank Account</p>
+                            <p class="song-artist">21 Savage</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">38</p>
+                            <img src="../picture/top100/chart38.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Mi Gente</p>
+                            <p class="song-artist">J Balvin, Willy William, Beyoncé</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">39</p>
+                            <img src="../picture/top100/chart39.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Too Good At Goodbyes </p>
+                            <p class="song-artist">Sam Smith</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">40</p>
+                            <img src="../picture/top100/chart40.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Lemon</p>
+                            <p class="song-artist">N.e.r.d., Rihanna</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">41</p>
+                            <img src="../picture/top100/top41.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">My Love</p>
+                            <p class="song-artist">Westlife - Ultimate Love CD1</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">42</p>
+                            <img src="../picture/top100/top42.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Attention</p>
+                            <p class="song-artist">J.Fla</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">43</p>
+                            <img src="../picture/top100/top43.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">I Do</p>
+                            <p class="song-artist">911 & Illuminate... (The Hits And More)</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">44</p>
+                            <img src="../picture/top100/top44.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">The River</p>
+                            <p class="song-artist">Axel Johansson - The River (Single)</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">45</p>
+                            <img src="../picture/top100/top45.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Despacito (Remix)</p>
+                            <p class="song-artist">Luis Fonsi, Daddy Yankee, Justin Bieber</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">46</p>
+                            <img src="../picture/top100/top46.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">We Don't Talk Anymore</p>
+                            <p class="song-artist">Charlie Puth, Selena Gomez</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">47</p>
+                            <img src="../picture/top100/top47.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Despacito</p>
+                            <p class="song-artist">Luis Fonsi, Daddy Yankee - Despacito (Single)</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">48</p>
+                            <img src="../picture/top100/top48.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Why Not Me</p>
+                            <p class="song-artist">Enrique Iglesias - Euphoria</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">49</p>
+                            <img src="../picture/top100/top49.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Until You</p>
+                            <p class="song-artist">Shayne Ward - Breathless</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div>
+                    <div class="chart-song-page-detail col-12">
+                        <a href="##">
+                            <p class="chart-number-song mt-4 ml-4 mr-3">50</p>
+                            <img src="../picture/top100/top50.jpg" alt="Not Found">
+                            <span class="icon-play"></span>
+                            <p class="song-title">Just Give Me A Reason</p>
+                            <p class="song-artist">Pink, Nate Ruess</p>
+                        </a>
+                        <img class="extent" src="../picture/share.png" alt="Not Found">
+                        <img class="extent" src="../picture/plus.png" alt="Not Found">
+                        <img class="extent" src="../picture/download.png" alt="Not Found">
+                        <img class="extent" src="../picture/video.png" alt="Not Found">
+                    </div> -->
+                </div>
+                <div class="navigation col-9 pl-6 pl-sm-6 col-sm-7">
+                    <a style="background-color: #CCCCFF">1</a>
+                    <a>2</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="chart" class="col-3 mr-4 col-sm-11 mt-sm-3 mr-sm-0">
+            <div class="title-right">
+                <p>&nbsp;ANOTHER TOP 100</p>
+            </div>
+            <div class="chart-song">
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/indie.jpg)"></p>
+                        <p class="song-title mt-5">INDIE</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/edm.jpg)"></p>
+                        <p class="song-title mt-5">EDM</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/blue.jpg)"></p>
+                        <p class="song-title mt-5">BLUE</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/jazz.jpg)"></p>
+                        <p class="song-title mt-5">JAZZ</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/party.jpg)"></p>
+                        <p class="song-title mt-5">PARTY</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/nonstop.jpg)"></p>
+                        <p class="song-title mt-5">NON STOP</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/acoustic.jpg)"></p>
+                        <p class="song-title mt-5">ACOUSTIC</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/children.jpg)"></p>
+                        <p class="song-title mt-5">CHILDREN</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/classic.jpg)"></p>
+                        <p class="song-title mt-5">CLASSIC</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-song mr-3" style="background-image: url(../picture/top100/buddhism.jpg)"></p>
+                        <p class="song-title mt-5">BUDDHISM</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../js/script.js"></script>
+
+</html>

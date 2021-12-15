@@ -1,0 +1,359 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    /* color: white; */
+}
+input,button,p,a,img{
+    outline: none;
+}
+    /* HEADER */
+header {
+    background-color: black;
+    position: fixed;
+    overflow: auto;
+    z-index: 2; /* khi cuon chuot khong bi de len header*/
+}
+
+header .header-container .col-6{
+    float: left;
+    /* margin: 2%; */
+}
+
+header #searchfield{
+    font-family: 'Graduate', cursive;
+}
+
+header #signin-up button{
+    float: right;
+    padding: 1% 2%;
+    color: white;
+    font-family: 'Graduate', cursive;
+    font-size: 12pt;
+    border: none;
+    background-color: transparent;
+}
+
+img{
+    object-fit: cover;
+}
+
+header .searchicon{
+    float: left;
+    background-color:#F8F8FF;
+}
+
+header .searchicon a{
+    float: left;
+    color:white;
+}
+header .searchicon img{
+    cursor: pointer;
+}
+
+header #searchfield img{
+    float: left;
+    background-color: transparent;
+}
+
+header #searchfield input{
+    margin: 2% 2%;
+    border: none;
+    background-color: transparent;
+}
+header #searchfield #signin-up button:hover{
+    Color:red;
+}
+
+section a{
+    color: black;
+}
+
+    /* MENU */
+#container #menu{
+    /* width: 200px; */
+    height: 210%;
+    position: fixed;
+    overflow: auto;
+    font-family: 'Graduate', cursive;
+    border-right: solid 1pt;
+    border-color: #834545;
+    background-color: #191919;
+    z-index: 2;
+}
+#container #menu #menu-music a{
+    display: block;
+    padding: 7% 10%;
+    /* text-decoration: none; */
+    border: 1px solid;
+    border-color:#D3D3D3;
+    background-color: white;
+}
+#container #menu #menu-music a:hover{
+    background-color: #E0FFFF;
+    border-left: 10px solid lightgreen;
+    color: lightgreen;
+    transition-duration: 0.3s; /*tao do tre*/
+}
+
+#container #menu #menu-music img{
+    margin-top: 2%;
+    width: 20%;
+    background-color: transparent;
+}
+
+#container #menu .more{
+    overflow: auto;
+    margin: 5% 4%;
+}
+
+#container #menu .more a:hover{
+    color: red;
+}
+
+#container #menu .more a{
+    display: block;
+    margin: 1%;
+    border: none;
+    font-size: 8pt;
+    color: white;
+    /* text-decoration: none; */
+}
+#container #menu .more .col1{
+    float: left;
+}
+#container #menu .more .col2{
+    float: right;
+}
+
+#container #menu .contact img{
+    width: 19%;
+    margin: 1% 1%;
+}
+
+ /* FOR ALL */
+
+ #container p.song-artist{
+    color: rgb(136, 136, 136);
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+}
+
+#container p.song-title{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12pt;
+}
+
+#container p.song-artist:hover{
+    color: #FF00FF;
+}
+
+#container p.song-title:hover{
+    color: #FF00FF;
+}
+
+#container .post .side a:hover img,
+.post .chart-song-page-detail a:hover img{
+    /* border-radius: 50%; */
+    transition: all 0.3s ease-in;
+    opacity: 0.2;
+}
+
+#container .post .side a:hover .icon-play,
+.post .chart-song-page-detail a:hover .icon-play{
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+
+.icon-play {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    background-image: url(../picture/play.png);
+}
+
+
+#container .post a.bt{
+    /* width:5%;
+    height:5%; */
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:0;
+    overflow: hidden;
+    position: absolute;
+    transition: .5s ease;
+}
+
+#container .title-right{
+    font-family: 'Graduate', cursive;
+    color: purple;
+    font-weight: bold;
+    font-size: 15pt;
+    width: 95%;
+    height: 4.5%;
+    background-color: #7FFFD4;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#container .title-right>p{
+    padding-top: 5px;
+}
+
+
+#container .title-mid {
+    color: peachpuff;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Graduate', cursive;
+    width: 95%;
+    height: 5%;
+    border-radius: 0px 20px 20px 0px;
+    background-image: linear-gradient(90deg,#4936d7 0%, #8d50e3);
+}
+#container .title-mid>p {
+    padding-top: 1%;
+}
+
+#container #content{
+    float: left;
+}
+#container #content .post .chart-details p{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+p.title{
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: 'Graduate', cursive;
+    background-image: linear-gradient(90deg,#4936d7 0%, #8d50e3);
+    border-radius: 20px;
+    color: peachpuff;
+    float: left;
+}
+
+a{ text-decoration: none;}
+
+.button-select a{
+    padding: 0px 0px 10px 0px;
+    /* background-color: red; */
+    display: block;
+    float: left;
+    font-family: 'Graduate', cursive;
+    margin: 0px 30px 0px 0px;
+}
+
+.button-select a:hover{
+    border-bottom: 2px solid sandybrown;
+    color: sandybrown;
+}
+
+/* DDL */
+.dropdown{
+    float: left;
+}
+.dropdown .dropdown-content {
+    display: none; /* ko cho item trong ddl hien ra*/
+    position: absolute;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropdown-content a{ 
+background-color: white;
+border: solid 1px silver;
+width: 245px;
+}
+.dropdown:hover .dropdown-content a p{
+    margin: 10px;
+}
+/* DDL */
+
+    .chart-title{
+    width: 100%;
+    height: 100px;
+}
+
+/* PAGE NUMBER */
+#container .navigation{
+    font-family: 'Roboto', sans-serif;
+    background-color: #CCFFFF;
+    float: left;
+}
+
+#container .navigation a{
+    padding: 10px 10px;
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    float: left;
+    text-align: center;
+    color: gray;
+}
+
+#container .navigation>a:hover{
+    background-color: #CCCCFF;
+}
+/* PAGE NUMBER */
+button{
+    cursor: pointer;
+}
+#menubutton{
+    display:none;
+}
+
+#menubutton{
+    width:50px;
+    height: 50px;
+    float: left;
+    position: fixed;
+    z-index: 2;
+    border: none;
+    background-color: transparent;
+}
+#menubutton img{
+    margin: -20px -20px;
+    width: 50px;
+    height: 50px;
+}
+
+#sign{
+    z-index: 3;
+    top: 200px;
+    border: slategrey solid 1px;
+    background-color:#D8D8D8;
+    padding: 2% 1%;
+    position: relative;
+    position: fixed;
+    display: none;
+    border-radius: 10%;
+}
+
+@media (min-width: 320px) and (max-width: 1020px) {
+    #menu {
+        display: none;
+    }    
+     #menubutton {
+        display: block;
+    }
+    header #signin-up button{
+      font-size: 10pt;
+    }
+    .opa{
+        opacity: 0.2;
+    }
+    #sign{
+        padding: 5% 1%;
+    }
+  }
+
+ @media (min-width: 1023px) and (max-width: 1365px) {
+    .more a{
+        font-size:8pt !important;
+    }
+    #sign{
+        width: 33%;
+        padding: 5% 1%;
+    }
+}

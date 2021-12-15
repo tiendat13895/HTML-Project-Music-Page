@@ -1,0 +1,35 @@
+.side{
+    float: left;
+    margin: 2%;
+}
+
+.srtext{
+    font-size: 16pt;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+    color: lightsalmon;
+}
+
+.search{
+    height: 60%;
+}
+
+#content>p{
+    font-size: 16pt;
+    font-weight: bold;
+    font-style: italic;
+    color: darkred;
+}
+
+
+@media (min-width: 320px) and (max-width: 1020px) {
+    .search{
+        height: 100%;
+    }
+  }
+  @media (min-width: 1023px) and (max-width: 1365px) {
+
+ }

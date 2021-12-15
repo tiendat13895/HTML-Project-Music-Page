@@ -1,0 +1,314 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Music</title>
+    <link rel="stylesheet" href="../css/ProjectStyle.css">
+    <link rel="stylesheet" href="../css/MV.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/jQuery.js"></script>
+</head>
+
+<body>
+    <header class="col-12">
+        <div class="header-container col-2">
+            <a href="../main/home.html">
+                <img class="col-6 ml-3 col-sm-12 mt-sm-2" src="../picture/music.jpg" />
+            </a>
+        </div>
+        <div id="searchfield">
+            <div class="searchicon offset-5 col-3 mt-2 col-sm-4 offset-sm-1a my-sm-2">
+                <img class="search-bt mt-2 ml-2 col-sm-1a mt-sm-1" src="../picture/search.png" alt="search">
+                <input class="search-text col-10 col-sm-8" type="text" name="searchtext" maxlength="100" placeholder="Search...">
+            </div>
+            <div id="signin-up" class="pt-sm-2">
+                <button onclick="signin()">Sign Up</button>
+                <button onclick="signin()">Sign In</button>
+            </div>
+        </div>
+    </header>
+    <div id="Sign" class="col-3 offset-5 col-sm-10 offset-sm-1">
+        <div class="ml-4">
+            <h1 class="ml-5a">SIGN IN</h1>
+            User name:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="u_name" class="mb-1" type="text" placeholder="User name">
+            <br> Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="pass" type="text" placeholder="Password">
+            <br>
+            <button class="mt-4 ml-5" onclick="hideSignin()">Login</button>
+            <button class="ml-5" onclick="hideSignin()">Cancel</button>
+        </div>
+    </div>
+    <section id="container" class="pt-6">
+        <div id="menu" class='col-2 col-sm-7 mt-sm-4'>
+            <div id="menu-music">
+                <div class="menu-home">
+                    <a href="../main/home.html">
+                        <img src="../picture/home.png" alt="HOME"> HOME</a>
+                </div>
+                <div class="menu-chart">
+                    <a href="../main/chart.html">
+                        <img src="../picture/chart.png" alt="CHART"> CHART</a>
+                </div>
+                <div class="menu-top100">
+                    <a href="../main/top100.html">
+                        <img src="../picture/top100.png" alt="TOP 100"> TOP 100</a>
+                </div>
+                <div class="menu-topic">
+                    <a href="../main/topic.html">
+                        <img src="../picture/topic.png" alt="TOPIC"> TOPIC</a>
+                </div>
+                <div class="menu-MV">
+                    <a href="../main/MV.html" style="background-color: #E0FFFF;border-left: 10px solid lightgreen;color:lightgreen;">
+                        <img src="../picture/MV.png" alt="MV"> MV</a>
+                </div>
+                <div class="menu-album">
+                    <a href="../main/album.html">
+                        <img src="../picture/album.png" alt="ALBUM"> ALBUM</a>
+                </div>
+                <div class="menu-artist">
+                    <a href="../main/artist.html">
+                        <img src="../picture/artist.png" alt="ARTIST"> ARTIST</a>
+                </div>
+            </div>
+            <div class="more">
+                <div class="col1 ml-2">
+                    <a href="#">
+                        About us
+                    </a>
+                    <a href="#">
+                        Contact
+                    </a>
+                    <a href="#">
+                        Privacy
+                    </a>
+                </div>
+                <div class="col2">
+                    <a href="#">
+                        Terms
+                    </a>
+                    <a href="#">
+                        Help Center
+                    </a>
+                    <a href="#">
+                        Advertisers
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="../picture/facebook.png" alt="FaceBook">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="../picture/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://mail.google.com" target="_blank">
+                    <img src="../picture/gmail.png" alt="Gmail">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="../picture/youtube.png" alt="Youtube">
+                </a>
+            </div>
+        </div>
+        <button id="menubutton" class="offset-2a col-6 col-sm-11 offset-sm-2a mt-sm-4" onclick="opacityContent1()">
+            <img src="../picture/menubt.png" alt="Not Found">
+        </button>
+        <div id="content1" class="offset-2a col-9a col-sm-11 offset-sm-2a mt-sm-4">
+            <div class="chart-title">
+                <p class="title" style="width: 205px;">&nbsp;Music Video</p>
+            </div>
+            <div class="button-select col-sm-11">
+                <a href="##" style=" border-bottom: 2px solid sandybrown; color: sandybrown;">Hot</a>
+                <a href="##">Popular</a>
+                <a href="##">Latest</a>
+            </div>
+            <div class="order col-sm-11">
+                <p class="by">Month</p>
+                <p class="by">Week</p>
+                <p class="by" style="color:sandybrown;">Date</p>
+                <p>Order By:</p>
+            </div>
+            <div class="post mv col-12 mt-5 pt-3 col-sm-11">
+                <!-- <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv1.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Attention</p>
+                    </a>
+                    <p class="song-artist">Charlie Puth</p>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv2.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Havana</p>
+                        <p class="song-artist">Camila Cabello, Young Thug</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv3.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">We Don't Talk Anymore</p>
+                        <p class="song-artist">Charlie Puth, Selena Gomez</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv4.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Despacito</p>
+                        <p class="song-artist">Luis Fonsi, Daddy Yankee</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv5.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Happy New Year</p>
+                        <p class="song-artist">ABBA</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv6.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Shape Of You</p>
+                        <p class="song-artist">Ed Sheeran</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv7.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Echame La Culpa</p>
+                        <p class="song-artist">Luis Fonsi, Demi Lovato</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv8.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Despacito</p>
+                        <p class="song-artist">J.Fla</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv9.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">MIC Drop (Steve Aoki Remix)</p>
+                        <p class="song-artist">BTS, Desiigner</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv10.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Rockabye</p>
+                        <p class="song-artist">Clean Bandit, Sean Paul</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv11.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">All Falls Down</p>
+                        <p class="song-artist">Alan Walker, Noah Cyrus</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv12.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Say Something</p>
+                        <p class="song-artist">Justin Timberlake</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv13.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">How Long</p>
+                        <p class="song-artist">Charlie Puth</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv14.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Faded</p>
+                        <p class="song-artist">Alan Walker</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv15.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Dark Horse</p>
+                        <p class="song-artist">Katy Perry, Juicy J</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv16.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Love Me Like You Do</p>
+                        <p class="song-artist">Ellie Goulding</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv17.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Corazón</p>
+                        <p class="song-artist">Maluma, Nego Do Borel</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv18.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Hold You (Radio Edit)</p>
+                        <p class="song-artist">Basto</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv19.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">All Falls Down (Live)</p>
+                        <p class="song-artist">Alan Walker, Noah Cyrus</p>
+                    </a>
+                </div>
+                <div class="side">
+                    <a href="##">
+                        <img src="../picture/mv/mv20.jpg">
+                        <span class="icon-play"></span>
+                        <p class="song-title">Sugar</p>
+                        <p class="song-artist">Maroon 5</p>
+                    </a>
+                </div> -->
+            </div>
+            <div class="navigation col-9 pl-6 pl-sm-0 col-sm-12">
+                <a style="background-color: #CCCCFF">1</a>
+                <a>2</a>
+                <a>3</a>
+                <a>4</a>
+                <a>5</a>
+                <a>Next</a>
+                <a>Last</a>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../js/script.js"></script>
+
+</html>

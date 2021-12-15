@@ -1,0 +1,264 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Music</title>
+    <link rel="stylesheet" href="../css/ProjectStyle.css">
+    <link rel="stylesheet" href="../css/watch.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/listen.js"></script>
+</head>
+
+<body>
+    <header class="col-12">
+        <div class="header-container col-2">
+            <a href="../main/home.html">
+                <img class="col-6 ml-3 col-sm-12 mt-sm-2" src="../picture/music.jpg" />
+            </a>
+        </div>
+        <div id="searchfield">
+            <div class="searchicon offset-5 col-3 mt-2 col-sm-4 offset-sm-1a my-sm-2">
+                <img class="search-bt mt-2 ml-2 col-sm-1a mt-sm-1" src="../picture/search.png" alt="search">
+                <input class="search-text col-10 col-sm-8" type="text" name="searchtext" maxlength="100" placeholder="Search...">
+            </div>
+            <div id="signin-up" class="pt-sm-2">
+                <button onclick="signin()">Sign Up</button>
+                <button onclick="signin()">Sign In</button>
+            </div>
+        </div>
+    </header>
+    <div id="Sign" class="col-3 offset-5 col-sm-10 offset-sm-1">
+        <div class="ml-4">
+            <h1 class="ml-5a">SIGN IN</h1>
+            User name:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="u_name" class="mb-1" type="text" placeholder="User name">
+            <br> Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="pass" type="text" placeholder="Password">
+            <br>
+            <button class="mt-4 ml-5" onclick="hideSignin()">Login</button>
+            <button class="ml-5" onclick="hideSignin()">Cancel</button>
+        </div>
+    </div>
+    <section id="container" class="pt-6">
+        <div id="menu" class='col-2 col-sm-7 mt-sm-4'>
+            <div id="menu-music">
+                <div class="menu-home">
+                    <a href="../main/home.html">
+                        <img src="../picture/home.png" alt="HOME"> HOME</a>
+                </div>
+                <div class="menu-chart">
+                    <a href="../main/chart.html">
+                        <img src="../picture/chart.png" alt="CHART"> CHART</a>
+                </div>
+                <div class="menu-top100">
+                    <a href="../main/top100.html">
+                        <img src="../picture/top100.png" alt="TOP 100"> TOP 100</a>
+                </div>
+                <div class="menu-topic">
+                    <a href="../main/topic.html">
+                        <img src="../picture/topic.png" alt="TOPIC"> TOPIC</a>
+                </div>
+                <div class="menu-MV">
+                    <a href="../main/MV.html">
+                        <img src="../picture/MV.png" alt="MV"> MV</a>
+                </div>
+                <div class="menu-album">
+                    <a href="../main/album.html">
+                        <img src="../picture/album.png" alt="ALBUM"> ALBUM</a>
+                </div>
+                <div class="menu-artist">
+                    <a href="../main/artist.html">
+                        <img src="../picture/artist.png" alt="ARTIST"> ARTIST</a>
+                </div>
+            </div>
+            <div class="more">
+                <div class="col1 ml-2">
+                    <a href="#">
+                        About us
+                    </a>
+                    <a href="#">
+                        Contact
+                    </a>
+                    <a href="#">
+                        Privacy
+                    </a>
+                </div>
+                <div class="col2">
+                    <a href="#">
+                        Terms
+                    </a>
+                    <a href="#">
+                        Help Center
+                    </a>
+                    <a href="#">
+                        Advertisers
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="../picture/facebook.png" alt="FaceBook">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="../picture/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://mail.google.com" target="_blank">
+                    <img src="../picture/gmail.png" alt="Gmail">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="../picture/youtube.png" alt="Youtube">
+                </a>
+            </div>
+        </div>
+        <button id="menubutton" class="offset-2a col-6 col-sm-11 offset-sm-2a mt-sm-4">
+            <img src="../picture/menubt.png" alt="Not Found">
+        </button>
+        <!-- Modified -->
+        <div id="content" class="offset-2a col-6 col-sm-11a offset-sm-2a mt-sm-4">
+            <p class="song-name">
+                <b class="watch-song-name"></b> -
+                <a href="##" class="watch-artist"></a>
+            </p>
+            <img class="like" src="../picture/like.png" alt="Not Found"> 5034K Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="listen" src="../picture/headphone.png" alt="Not Found"> 9,264,256
+            <div class="center-listen col-12 col-sm-12 mt-3 pl-3">
+                <video class="watch-video" autoplay controls>
+                    <!-- <source src="https://zmp3-mp3-mv1.zadn.vn/6ae33a070642ef1cb653/1265421741693946048?authen=exp=1522725001~acl=/6ae33a070642ef1cb653/*~hmac=3d37b5af209a0c29e3722f92e1f23b41" type="video/mp4"> -->
+                </video>
+                <p>
+                    <span style="color:gray;">Singer:</span>
+                    <a href="##" class="listen-artist"></a>
+                </p>
+                <p>
+                    <span style="color:gray;">Type:</span>
+                    <a href="##"> US-UK</a>
+                </p>
+                <div class="button mx-1">
+                    <img src="../picture/plus.png" alt="Not Found"> Add</div>
+                <div class="button mx-1">
+                    <img src="../picture/download.png" alt="Not Found"> Download</div>
+                <div class="button mx-1">
+                    <img src="../picture/flag.png" alt="Not Found"> Report</div>
+                <div class="button mx-1">
+                    <img src="../picture/share.png" alt="Not Found"> Share</div>
+                <div class="lyric col-11 mx-1 my-6 my-sm-5">
+                    <p>
+                        <b class="watch-song-name"></b>- Lyric</p>
+                    <p>
+                        <!-- [Intro]
+                        <br> One, one, one...
+                        <br> [Verse 1]
+                        <br> Talkin' in my sleep at night
+                        <br> Makin' myself crazy
+                        <br> (Out of my mind, out of my mind)
+                        <br> Wrote it down and read it out
+                        <br> Hopin' it would save me
+                        <br> (Too many times, too many times)
+                        <br> My love, he makes me feel like nobody else
+                        <br> Nobody else
+                        <br> But my love, he doesn't love me, so I tell myself
+                        <br> I tell myself -->
+                        <br> .....................
+                        <!-- <br>
+                        <br>
+                        <a href="##">More</a> -->
+                    </p>
+                </div>
+                <div class="">
+                    <p class="watch-art"></p>
+                    <a href="##" class="art-name ml-4 mt-4 watch-artist"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="chart" class="col-3 mr-4 col-sm-11 offset-sm-2a mr-sm-0">
+            <div class="chart-block2">
+                <div class="title mb-2">
+                    <p>&nbsp;Another MV</p>
+                </div>
+                <!-- <div class="chart-mv"> -->
+                    <!-- <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart1.jpg);"></p>
+                        <p class="song-title">Corazon</p>
+                        <p class="song-artist"> Maluma, Nego Do Borel </p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart2.jpg);"></p>
+                        <p class="song-title">Corazon</p>
+                        <p class="song-artist"> Maluma, Nego Do Borel </p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart3.jpg);"></p>
+                        <p class="song-title">Perfect Duet</p>
+                        <p class="song-artist">Ed Sheeran, Beyoncé</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart4.jpg);"></p>
+                        <p class="song-title">Havana</p>
+                        <p class="song-artist">Camila Cabello, Young Thug</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart5.jpg);"></p>
+                        <p class="song-title">Shape Of You</p>
+                        <p class="song-artist">Ed Sheeran</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart6.jpg);"></p>
+                        <p class="song-title">Thunder</p>
+                        <p class="song-artist">Imagine Dragons</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart7.jpg);"></p>
+                        <p class="song-title">Bum Bum Tam Tam</p>
+                        <p class="song-artist">Various</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart8.jpg);"></p>
+                        <p class="song-title">New Rules</p>
+                        <p class="song-artist">Dua Lipa</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart9.jpg);"></p>
+                        <p class="song-title">Solita</p>
+                        <p class="song-artist">Various</p>
+                    </a>
+                </div>
+                <div class="chart-song-detail col-12">
+                    <a href="##">
+                        <p class="chart-number-mv" style="background-image: url(../picture/home/mv-chart10.jpg);"></p>
+                        <p class="song-title">Dusk Till Dawn</p>
+                        <p class="song-artist">ZAYN, Sia</p>
+                    </a>
+                </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../js/script.js"></script>
+
+</html>

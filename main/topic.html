@@ -1,0 +1,256 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Music</title>
+    <link rel="stylesheet" href="../css/ProjectStyle.css">
+    <link rel="stylesheet" href="../css/topic.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="libs/bootstrap-4.0.0/dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="col-12">
+        <div class="header-container col-2">
+            <a href="../main/home.html">
+                <img class="col-6 ml-3 col-sm-12 mt-sm-2" src="../picture/music.jpg" />
+            </a>
+        </div>
+        <div id="searchfield">
+            <div class="searchicon offset-5 col-3 mt-2 col-sm-4 offset-sm-1a my-sm-2">
+                <img class="search-bt mt-2 ml-2 col-sm-1a mt-sm-1" src="../picture/search.png" alt="search">
+                <input class="search-text col-10 col-sm-8" type="text" name="searchtext" maxlength="100" placeholder="Search...">
+            </div>
+            <div id="signin-up" class="pt-sm-2">
+                <button onclick="signin()">Sign Up</button>
+                <button onclick="signin()">Sign In</button>
+            </div>
+        </div>
+    </header>
+    <div id="Sign" class="col-3 offset-5 col-sm-10 offset-sm-1">
+        <div class="ml-4">
+            <h1 class="ml-5a">SIGN IN</h1>
+            User name:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="u_name" class="mb-1" type="text" placeholder="User name">
+            <br> Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="pass" type="text" placeholder="Password">
+            <br>
+            <button class="mt-4 ml-5" onclick="hideSignin()">Login</button>
+            <button class="ml-5" onclick="hideSignin()">Cancel</button>
+        </div>
+    </div>
+    <section id="container" class="pt-6">
+        <div id="menu" class='col-2 col-sm-7 mt-sm-4'>
+            <div id="menu-music">
+                <div class="menu-home">
+                    <a href="../main/home.html">
+                        <img src="../picture/home.png" alt="HOME"> HOME</a>
+                </div>
+                <div class="menu-chart">
+                    <a href="../main/chart.html">
+                        <img src="../picture/chart.png" alt="CHART"> CHART</a>
+                </div>
+                <div class="menu-top100">
+                    <a href="../main/top100.html">
+                        <img src="../picture/top100.png" alt="TOP 100"> TOP 100</a>
+                </div>
+                <div class="menu-topic">
+                    <a href="../main/topic.html" style="background-color: #E0FFFF;border-left: 10px solid lightgreen;color:lightgreen;">
+                        <img src="../picture/topic.png" alt="TOPIC"> TOPIC</a>
+                </div>
+                <div class="menu-MV">
+                    <a href="../main/MV.html">
+                        <img src="../picture/MV.png" alt="MV"> MV</a>
+                </div>
+                <div class="menu-album">
+                    <a href="../main/album.html">
+                        <img src="../picture/album.png" alt="ALBUM"> ALBUM</a>
+                </div>
+                <div class="menu-artist">
+                    <a href="../main/artist.html">
+                        <img src="../picture/artist.png" alt="ARTIST"> ARTIST</a>
+                </div>
+            </div>
+            <div class="more">
+                <div class="col1 ml-2">
+                    <a href="#">
+                        About us
+                    </a>
+                    <a href="#">
+                        Contact
+                    </a>
+                    <a href="#">
+                        Privacy
+                    </a>
+                </div>
+                <div class="col2">
+                    <a href="#">
+                        Terms
+                    </a>
+                    <a href="#">
+                        Help Center
+                    </a>
+                    <a href="#">
+                        Advertisers
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="../picture/facebook.png" alt="FaceBook">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="../picture/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://mail.google.com" target="_blank">
+                    <img src="../picture/gmail.png" alt="Gmail">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="../picture/youtube.png" alt="Youtube">
+                </a>
+            </div>
+        </div>
+        <button id="menubutton" class="offset-2a col-6 col-sm-11 offset-sm-2a mt-sm-4" onclick="opacityContent1()">
+            <img src="../picture/menubt.png" alt="Not Found">
+        </button>
+        <div id="content1" class="offset-2a col-9 col-sm-11 offset-sm-2a mt-sm-4">
+            <div class="topic-panel col-12 col-sm-11">
+                <p class="col-10">
+                    <br>
+                    <br>
+                    <span>TOPIC MUSIC</span>
+                    <br>
+                    <br>Best-of-theme music is carefully selected and updated constantly. You are happy or sad, are partying
+                    or going to travel, waking up or going to sleep ... what you need is here!</p>
+            </div>
+            <div class="col-12 ml-4 col-sm-11 mx-sm-4">
+                <div class="block">
+                    <p class="topic-title col-11">Command</p>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/2017.png">
+                            <p class="song-artist">Hot song in 2017.</p>
+                        </a>
+                    </div>
+                    <div class="side ml-3 mr-3">
+                        <a href="##">
+                            <img src="../picture/topic/edm.jpg">
+                            <p class="song-artist">Drop yourself into the music space of the famous DJs, Producers with EDM.</p>
+                        </a>
+                    </div>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/spring.jpg">
+                            <p class="song-artist">Spring is one of the best season for everyone.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="block1">
+                    <p class="topic-title col-11">Attitude</p>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/radio.jpg">
+                            <p class="song-artist">Get nostalgic ideas from the old feelings as well as bring new feelings.</p>
+                        </a>
+                    </div>
+                    <div class="side ml-3 mr-3">
+                        <a href="##">
+                            <img src="../picture/topic/acoustic.jpg">
+                            <p class="song-artist">Warm, comfortable feels to swinging your mind with the acoustic melody.</p>
+                        </a>
+                    </div>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/music4love.jpg">
+                            <p class="song-artist">Endless love is an endless source of inspiration, associated with millions of songs.</p>
+                        </a>
+                    </div>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/happy.jpg">
+                            <p class="song-artist">Come on and do not think about your sorrow.</p>
+                        </a>
+                    </div>
+                    <div class="side ml-3 mr-3">
+                        <a href="##">
+                            <img src="../picture/topic/goodmorning.jpg">
+                            <p class="song-artist">Helping you have a new day full-filled with energy.</p>
+                        </a>
+                    </div>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/goodnight.jpg">
+                            <p class="song-artist">With smoothing melodies, colorful music will help you have a nice sleep.</p>
+                        </a>
+                    </div>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/topdj.jpg">
+                            <p class="song-artist">Bring you to the best song of the best known DJs.</p>
+                        </a>
+                    </div>
+                    <div class="side ml-3 mr-3">
+                        <a href="##">
+                            <img src="../picture/topic/motivation.jpg">
+                            <p class="song-artist">Music will motivates you during difficult times in life.</p>
+                        </a>
+                    </div>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/party.jpg">
+                            <p class="song-artist">Warm up your Party.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="topic-title col-11">Activity</p>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/yoga.jpg">
+                            <p class="song-artist">The excited tune along with the exercises will help improve your health.</p>
+                        </a>
+                    </div>
+                    <div class="side ml-3 mr-3">
+                        <a href="##">
+                            <img src="../picture/topic/dinner.jpg">
+                            <p class="song-artist">Turn on a song then enjoy the dinner with family and relatives.</p>
+                        </a>
+                    </div>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/karaoke.jpg">
+                            <p class="song-artist">Your feeling will be sublimated with favorite songs.</p>
+                        </a>
+                    </div>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/gym.jpg">
+                            <p class="song-artist">Music is an important part of GYM.</p>
+                        </a>
+                    </div>
+                    <div class="side ml-3 mr-3">
+                        <a href="##">
+                            <img src="../picture/topic/gaming.jpg">
+                            <p class="song-artist">The music inspired the gamers.</p>
+                        </a>
+                    </div>
+                    <div class="side">
+                        <a href="##">
+                            <img src="../picture/topic/weekend.jpg">
+                            <p class="song-artist">Music will bring you to the nice weekends and relax with your friends.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../js/script.js"></script>
+
+</html>
